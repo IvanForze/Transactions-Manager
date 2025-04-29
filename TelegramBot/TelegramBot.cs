@@ -17,7 +17,7 @@ class Program
     /// </summary>
     static async Task Main()
     {
-        var botToken = "7939745223:AAFd_t59qZoTnwBIV6K9WmdR6oH2aePBgyA";
+        var botToken = "realtoken";
         var _bot = new TelegramBot(botToken);
         await _bot.StartAsync();
     }
